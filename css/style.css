@@ -1,0 +1,489 @@
+body{
+    margin: 0;
+}
+
+body.index{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../gambar/gelap.jpg');
+    background-size: cover;
+}
+
+.home-parent-div{
+   /*  border: solid white; */
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+    font-family: 'Handlee', cursive;
+}
+
+.home-childern-div{
+    /* border: solid blue;  */
+    width: 50%;
+   
+   /*  box-sizing: border-box;  */
+    color: white;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+#left-home-child{
+    margin-top: 27px;
+}
+
+.home-link-contain a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.home-childern-div h1{
+    font-size: 40px;
+    text-align: center;
+}
+.home-childern-div p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.home-link-contain{
+    margin-top: 40px;
+}
+.home-to-about-btn{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 10px 22px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.home-to-about-btn:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+a.home-to-about-btn{
+    text-decoration: none;
+}
+
+.to-about-btn{
+    text-align: center;
+    margin-top: 45px;
+}
+
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+/* ============================================= */
+/* CSS about-us.html */
+
+.body-about{
+    width: 100%;
+  /*   border: solid 1px;  */
+    font-family: 'Handlee', cursive;
+}
+
+.navigasi-contact{
+    width: 100%;
+   /*  background-color: #221F1F; */
+}
+
+.navigasi-contain{
+    width: 1200px;
+    /* border: solid white 1px;  */
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 20px;
+    color: white;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+}
+
+.navigasi-contain a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.about-parent-div{
+    width: 1200px;
+  /*   border: solid blue; */
+   /*  height: 300px; */
+    margin: auto;
+}
+
+.about-title-div{
+   /*  border: solid; */
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.about-children-div{
+    width: 46%;
+   /*  border: solid; */
+   /*  height: 300px; */
+    box-sizing: border-box;
+}
+.about-children-div p{
+    font-size: 17px;
+}
+
+.about-logo-contain{
+    width: 52%;
+    /* border: solid; */
+    margin: auto;
+}
+
+.about-logo-contain img{
+    background-color:darkgrey;
+    border-radius: 40%;
+}
+
+
+
+
+/* ============================================= */
+/* CSS contact.html */
+
+.body-contact{
+    width: 100%;
+    height: 100vh;
+    /* border: solid blue; */
+/*     border: solid; */
+}
+
+.body-contact .navigasi-contact{
+    font-family: 'Handlee', cursive;
+}
+
+.body-contact-half{
+    width: 50%;
+    height: 100%;
+     box-sizing: border-box;
+    /* border: solid blue; */
+    /* height: 300px; */
+    padding-top: 80px;
+
+}
+
+.black-bgcolor{
+    background-color: #221F1F;
+}
+
+.absolut{
+    position: absolute;
+}
+
+.contact-form-container{
+    width: 80%;
+   /*  height: 200px;
+    border: solid white; */
+    margin-top: 50px;
+    margin-left: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+.form-contact{
+    margin-top: 50px;
+}
+
+.form-contact label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.form-contact input{
+    line-height: 2;
+    font-size: 15px;
+    width: 300px; 
+    margin-bottom: 24px;
+}
+
+.form-contact input[type="submit"]{
+    display: block;
+    margin-top: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+}
+
+.form-contact input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.map-container{
+ /*    border: solid; */
+    width: 80%;
+    margin: auto;
+   /*  height: 300px; */
+    margin-top: 50px;
+}
+
+.map{
+    width: 100%;
+    height: 500px;
+    background-color: gray;
+}
+
+
+
+/* ============================================= */
+/* CSS newarival.html */
+
+.body-newarival{
+    width: 100%;
+   /*  border: solid; */
+   /*  height: 300px; */
+}
+
+.newarival-parent-div{
+    width: 1200px;
+ /*    border: solid greenyellow; */
+    /* height: 300px; */
+    margin: 100px auto;
+}
+
+.newarival-children-div{
+    width: 48%;
+    /* height: 300px; */
+/*     border: solid blue; */
+    box-sizing: border-box;
+    position: relative;
+}
+
+.newarival-title-div h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+}
+
+.newarival-main-produck-contain{
+/*     border: solid black; */
+/*     height: 300px; */
+    width: 50%;
+    margin: auto;
+/*     border: solid; */
+}
+
+.newarival-main-product-image img{
+    border-radius: 50%;
+}
+
+.newarival-main-product-name h2{
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    font-size: 22px;
+}
+
+.newarivel-discaunt-contain{
+/*     border: solid orange; */
+/*     height: 100px; */
+    display: inline-block;
+    width: 200px;
+    position: absolute;
+    top: 107px;
+    right: 0;
+}
+
+.newarivel-discaunt-contain{
+   color: red; 
+   font-family: 'Handlee', cursive;
+}
+
+.newarival-discaunt-number{
+    text-align: center;
+        font-size: 60px;
+}
+
+.newarival-discount-text{
+    font-size: 45px;
+    text-align: right;
+
+}
+
+.newarival-item-contain{
+ /*    border: solid; */
+    width: 90%;
+/*     height: 230px; */
+    margin: 20px auto;
+    background-color: darkgray;
+}
+
+.newarival-item-image{
+    width: 30%;
+ /*    border: solid goldenrod; */
+    /* height: 100px; */
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+.newarival-item-desc{
+/*     border: solid cyan; */
+    width: 55%;
+/*     height: 100px; */
+    box-sizing: border-box;
+    margin: 15px;
+    text-align: right;
+    font-size: 17px;
+    font-family: 'Handlee', cursive;
+}
+
+.newarival-item-desc h2:last-child{
+    color: rgb(0, 102, 255);
+}
+
+
+/* memanggil urutan ke-2 dari div newarival-item-contain dan mengubah div newarival-item-desc */
+.newarival-item-contain:nth-child(2) .newarival-item-desc{
+    text-align: left;
+}
+/*  ATAU BISA JUGA SEPERTI DIBAWAH INI DENGAN MENGGUNAKAN PEMANGILAN ID*/
+
+/* #product-name-left{
+    /*     border: solid cyan; */
+ /*    width: 55%; */
+/*     height: 100px; */
+/*     box-sizing: border-box;
+    margin: 15px;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Handlee', cursive;
+} */
+
+
+
+
+/* ============================================= */
+/* CSS product.html */
+
+.body-porduct{
+ /*    border: solid; */
+    width: 100%;
+/*     height: 300px; */
+    font-family: 'Handlee', cursive;
+}
+
+.product-parent-div{
+    width: 1200px;
+/*     height: 300px; */
+/*     border: solid blue; */
+    margin: 50px auto;
+}
+
+.product-cihildren-div-left{
+/*     border: solid green; */
+    width: 20%;
+ /*    height: 300px; */
+    box-sizing: border-box;
+}
+
+.product-cihildren-div-right{
+   /*  border: solid orange; */
+    width: 75%;
+/*     height: 300px ; */
+    box-sizing: border-box;
+}
+
+.brand-contain{
+    background-color: #c4c4c4;
+    height: 400px;
+    width: 100%;
+
+}
+
+.brand-item-contain{
+   padding-top: 30px;
+   padding-right: 50px;
+   padding-left: 30px;
+}
+
+.brand-item-contain h2{
+    font-size: 30px;
+}
+
+.brand-item-contain li{
+    list-style-type: none;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.brand-item-contain li a{
+    text-decoration: none;
+    color: #221F1F;
+}
+
+.brand-item-contain li a:hover{
+    color: white;
+    font-size: 25px;
+}
+
+.product-item-contain{
+   /*  border: solid; */
+    height: 280px;
+    width: 20%;
+   display: inline-block;
+    margin: 2%;
+}
+
+.product-item-image-contain{
+/*     border: solid; */
+/*     height: 100px; */
+    margin-bottom: 10px;
+    margin-top: 7px;
+}
+
+.image-center{
+    width: 130px;
+    display: block ; 
+    margin: auto;
+}
+
+.product-item-name-contain{
+   /*  border: solid blue; */
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.product-item-desc-contain{
+    /* border: solid red; */
+    font-size: 14px;
+    text-align: center;
+    font-style: normal;
+    margin-bottom: 7px;
+}
+
+.product-item-price-item-contain{
+/*     border: solid yellow; */
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
